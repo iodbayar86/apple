@@ -2,42 +2,41 @@ body{
 	font-family: helvetica;
 }
 /*TOP NAV BAR*/
-div.navigation{
+nav{
 	top: 0 !important;
 	position: fixed;
-	width: 100%;
-	display: block;
-    margin: 0 auto;
-    width: 100%;
-    min-width: 1024px;
-    height: 48px;
-    max-height: 44px;
-	background-color: rgba(0,0,0,0.8);
 	text-align: center;
+	background-color: rgba(0,0,0,0.8);
+	width: 100%;
 
 }
 
-div.navigation ul li{
-	list-style: none;
-	display: inline;
-	line-height: 40px;
-	font-size: 14px;
-	margin: 0 3%;
-	font-weight: 200;
-	margin-top: 0;
+ul.navigation{
+	width: 100%;
+	padding-left: 0;
 }
 
-div.navigation a {
+.navigation li{
+	display: inline-block;
+
+}
+
+.navigation a{
+	padding-left: 80px;
+	color: white;
 	text-decoration: none;
-	color: white;
-
+	font-size: 14px;
+	font-weight: 300;
 
 }
 
-div.navigation i{
+.navigation i{
 	color: white;
+	padding-left: 80px;
+	font-size: 17px;
 }
-	
+
+
 
 /*TOP SECTION*/
 div.section{
@@ -215,9 +214,38 @@ footer{
 footer div{
 	vertical-align: top;
 }
+/*footer section*/
+section{
+	padding-left: 300px;
+	padding-right: 300px;
+	font-size: 12px;
+	color: #555;
+}
 
+div.section1 a{
+	text-decoration: none;
+}
 
+div.section2 a{
+	text-decoration: none;
+	padding: 10px;
+	padding-top: 0;
+	padding-left: 0;
+	display: inline-block;
+}
 
+span.usa{
+	padding-left: 80px;
+}
+
+img.usa{
+	width: 20px;
+	height: 18px;
+	position: absolute;
+	left: 1015px;
+	padding-top: 10px;
+
+}
 
 
 
